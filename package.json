@@ -1,0 +1,46 @@
+{
+  "name": "@samme/colors",
+  "version": "0.1.0",
+  "main": "dist/colors.cjs.js",
+  "module": "dist/colors.esm.js",
+  "browser": "dist/colors.umd.js",
+  "devDependencies": {
+    "rollup": "^1.20.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "contributors": [
+    "@mrmrs <hi@mrmrs.cc> (http://mrmrs.cc)",
+    "@ilanbiala",
+    "@kdrdgn (http://www.twitter.com/kdrdgn)",
+    "@tenmilestereo (http://www.lewiscowper.com)",
+    "@nschonni <nschonni@gmail.com> (http://wet-boew.github.io/)",
+    "SiR-DanieL",
+    "@enyo <m@tias.me> (http://colorglare.com)"
+  ],
+  "description": "Better default colors for the web",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/colors.git"
+  },
+  "keywords": [
+    "colors"
+  ],
+  "author": "samme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samme/colors/issues"
+  },
+  "homepage": "https://github.com/samme/colors#readme"
+}

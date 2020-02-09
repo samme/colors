@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/samme/colors/issues"
   },
-  "homepage": "https://github.com/samme/colors#readme"
+  "homepage": "https://github.com/samme/colors#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

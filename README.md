@@ -6,11 +6,11 @@ Colors
 Browser
 -------
 
-const { cssColors, hexColors } = window.colors;
+    const { cssColors, hexColors } = window.colors;
 
 Module
 ------
 
-import { cssColors, hexColors } from 'colors';
+    import { cssColors, hexColors } from 'colors';
 
 [1]: https://www.npmjs.com/package/colors.css

@@ -1,4 +1,4 @@
-Colors
+Colors 🌈
 ======
 
 [Better default colors for the web][1], repackaged.

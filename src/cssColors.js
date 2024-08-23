@@ -1,19 +1,17 @@
-export default {
-  aqua:    '#7fdbff',
-  black:   '#111111',
-  blue:    '#0074d9',
-  fuchsia: '#f012be',
-  gray:    '#aaaaaa',
-  green:   '#2ecc40',
-  lime:    '#01ff70',
-  maroon:  '#85144b',
-  navy:    '#001f3f',
-  olive:   '#3d9970',
-  orange:  '#ff851b',
-  purple:  '#b10dc9',
-  red:     '#ff4136',
-  silver:  '#dddddd',
-  teal:    '#39cccc',
-  white:   '#ffffff',
-  yellow:  '#ffdc00'
-};
+export const aqua = '#7fdbff';
+export const black = '#111111';
+export const blue = '#0074d9';
+export const fuchsia = '#f012be';
+export const gray = '#aaaaaa';
+export const green = '#2ecc40';
+export const lime = '#01ff70';
+export const maroon = '#85144b';
+export const navy = '#001f3f';
+export const olive = '#3d9970';
+export const orange = '#ff851b';
+export const purple = '#b10dc9';
+export const red = '#ff4136';
+export const silver = '#dddddd';
+export const teal = '#39cccc';
+export const white = '#ffffff';
+export const yellow = '#ffdc00';

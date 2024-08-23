@@ -1,4 +1,7 @@
-import pkg from './package.json';
+import fs from 'fs';
+import path from 'path';
+
+const pkg = JSON.parse(fs.readFileSync('package.json', 'utf-8'));
 
 export default [
 	{
@@ -6,7 +9,7 @@ export default [
 		output: [
 			{ file: pkg.main, format: 'cjs' },
 			{ file: pkg.module, format: 'es' },
-  		{ file: pkg.browser, format: 'umd', name: 'colors' }
+			{ file: pkg.browser, format: 'umd', name: 'colors' }
 		]
 	}
 ];

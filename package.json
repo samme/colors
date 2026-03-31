@@ -5,7 +5,7 @@
   "module": "dist/colors.esm.js",
   "browser": "dist/colors.umd.js",
   "devDependencies": {
-    "rollup": "^1.20.0"
+    "rollup": "^2.80.0"
   },
   "scripts": {
     "build": "rollup -c",
